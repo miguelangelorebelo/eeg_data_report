@@ -7,3 +7,4 @@ CAUTION! change MAF file, Linear, WALD, and VCF
 
 Important files: Annotaton file, DisGeNET variants file, Targets file, and AD meta-analysis variants file
 
+![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/alpha_man.png)
