@@ -9,3 +9,7 @@ Important files: Annotaton file, DisGeNET variants file, Targets file, and AD me
 Manhattan plot             |  QQplot
 :-------------------------:|:-------------------------:
 ![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/alpha_man.png) | ![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/QQ.png)
+
+Genotypes | Distributions
+:------: | :------:
+![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/rs71381191.png) | ![]()
