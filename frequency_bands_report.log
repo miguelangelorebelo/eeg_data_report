@@ -1,0 +1,106 @@
+start report
+linear regression files written as "-band-.txt"
+16575  variants selected at p < 0.01
+SNP subset at P<0.01 exported as "snps_01_cut.txt"
+7 variants from subset in disgenet
+from  1062  variants present in disgenet dataset
+log regression info for  7  variants
+p_values from logistic regression written to "eeg_log.txt"
+1  variants with p_log < 0.05
+         CHR       SNP        BP A1  ...     L95     U95   STAT        P
+1580952   12  rs731236  48238757  G  ...  0.3014  0.9759 -2.041  0.04123
+
+[1 rows x 12 columns]
+0  variants with p_log < 0.001
+Empty DataFrame
+Columns: [CHR, SNP, BP, A1, TEST, NMISS, OR, SE, L95, U95, STAT, P]
+Index: []
+Empty DataFrame
+Columns: [SNP, Gene]
+Index: []
+0  snps previously associated with AD from meta-analysis
+variants present in disgenet with MAF info for cases and controls written to "snp_in_disgenet_freq.txt"
+893  variants with log P < 0.05
+6  variants with log P < 0.001
+0  variants with log P < 0.0001
+log significant snps at 10e-4 exported as "sig_log_in_lin_10-4.txt"
+summary info with linear and logistic p_values as well as MAF and duplicates info written to "summary.txt" file
+getting genotypes and frequency bands
+plots
+start most significant
+genome-wide threshold:  1.2866038803973034e-07
+number of variants being tested:  388620
+summary info with linear and logistic p_values as well as MAF info written to "summary_sig.txt" file
+found  1  highly significant SNPs:
+          SNP A1  CHR        BP  ...  exonic_func  aa_change  CADD13_PHRED  clinsig
+0  rs71381191  A   16  11156812  ...          NaN        NaN         14.76      NaN
+
+[1 rows x 26 columns]
+RP vs genotype for significant SNPs dumped in genotype_sig folder
+RP vs allele for significant SNPs dumped in allele_sig folder
+ploting RP vs genotype distributions for all samples and cases and controls separatelly
+RP vs genotype for significant SNPs distribution for all samples dumped in all_dist_sig folder
+Start analysis for most significant snps from linear regression, with low SE and significant beta
+summary info with linear p <  5e-06  and logistic p_values as well as MAF info written to "summary_sig_se.txt" file
+found  19  significant SNPs at p <  5e-06
+           SNP A1  CHR         BP  ...  exonic_func  aa_change  CADD13_PHRED  clinsig
+0    rs7516534  T    1   31318133  ...          NaN        NaN         5.760      NaN
+1   rs12720066  C    7   87169702  ...          NaN        NaN         2.904      NaN
+2   rs12705973  G    7  114313199  ...          NaN        NaN         3.555      NaN
+3   rs10108126  C    8   74109307  ...          NaN        NaN         3.148      NaN
+4   rs10104429  A    8   74257947  ...          NaN        NaN         5.045      NaN
+5    rs7125249  G   11   45062339  ...          NaN        NaN         2.237      NaN
+6    rs6692346  A    1  112358513  ...          NaN        NaN         0.070      NaN
+7    rs4658030  C    1  192427329  ...          NaN        NaN         0.486      NaN
+8   rs77599684  A   18   21849024  ...          NaN        NaN         3.816      NaN
+9    rs6106856  A   20   24313473  ...          NaN        NaN         4.707      NaN
+10   rs7149295  C   14   51283148  ...          NaN        NaN           NaN      NaN
+11  rs12263011  C   10   13865505  ...          NaN        NaN         1.023      NaN
+12  rs71381191  A   16   11156812  ...          NaN        NaN        14.760      NaN
+13  rs12443654  C   16   19375297  ...          NaN        NaN         0.124      NaN
+14   rs9930193  T   16   19380081  ...          NaN        NaN         4.796      NaN
+15  rs55908084  G   17   65034162  ...          NaN        NaN         2.226      NaN
+16   rs9960516  T   18   45878300  ...          NaN        NaN         2.797      NaN
+17  rs72919581  T   18   45885064  ...          NaN        NaN         2.668      NaN
+18   rs1893824  T   18   74959125  ...          NaN        NaN         0.782      NaN
+
+[19 rows x 26 columns]
+RP vs genotype for significant SNPs filtered by SE dumped in genotype_sig_se folder
+RP vs allele for significant SNPs filterd by SE dumped in allele_sig_se folder
+ploting RP vs genotype distributions for all samples and cases and controls separatelly
+RP vs genotype for significant SNPs filtered by SE distribution for all samples dumped in all_dist_sig_se folder
+manhattan plots exported to current folder
+qq plot saved to QQ-plot folder
+2  genes from sig_se in OpenTargets platform
+       gene        target.id  association_score.overall  \
+138  FRMD4A  ENSG00000151474                   0.599855   
+620    RPL7  ENSG00000147604                   0.184096   
+
+     association_score.datatypes.genetic_association  \
+138                                         0.589815   
+620                                         0.184096   
+
+     association_score.datatypes.somatic_mutation  \
+138                                           0.0   
+620                                           0.0   
+
+     association_score.datatypes.known_drug  \
+138                                     0.0   
+620                                     0.0   
+
+     association_score.datatypes.affected_pathway  \
+138                                           0.0   
+620                                           0.0   
+
+     association_score.datatypes.rna_expression  \
+138                                    0.023464   
+620                                    0.000000   
+
+     association_score.datatypes.literature  \
+138                                0.029733   
+620                                0.000000   
+
+     association_score.datatypes.animal_model      target.gene_info.name  
+138                                       0.0  FERM domain containing 4A  
+620                                       0.0       ribosomal protein L7  
+job finished
