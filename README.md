@@ -6,3 +6,4 @@ This script takes ~60min to run
 CAUTION! change MAF file, Linear, WALD, and VCF
 
 Important files: Annotaton file, DisGeNET variants file, Targets file, and AD meta-analysis variants file
+
