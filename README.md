@@ -10,6 +10,7 @@ Manhattan plot             |  QQplot
 :-------------------------:|:-------------------------:
 ![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/alpha_man.png) | ![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/QQ.png)
 
-Genotypes | Distributions
-:------: | :------:
-![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/rs71381191.png) | ![]()
+Genotypes 
+:------:
+![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/rs71381191.png) 
+![](https://github.com/miguelangelorebelo/eeg_data_report/blob/master/rs7516534.png)
